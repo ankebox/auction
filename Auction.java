@@ -102,4 +102,19 @@ public class Auction
             return null;
         }
     }
+    
+    public void close() {
+        for (Lot elemento : lots) {
+            System.out.println(elemento.toString());
+            
+            if(elemento.getHighestBid() == null) {
+                System.out.println("NO SE HAN ECHO PUJAS A ESTE OBJETO");
+            }
+            else {
+                System.out.println("PUJA MAS ALTA, Nombre " + elemento.getHighestBid().getBidder().getName());
+                System.out.println("EL DINERO PUJADO, Valor " + elemento.getHighestBid().getValue());
+                 System.out.println("     ");
+            }
+        }
+    }
 }
