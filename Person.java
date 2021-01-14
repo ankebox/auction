@@ -1,3 +1,5 @@
+package auction;
+
 /**
  * Maintain details of someone who participates in an auction.
  * @author David J. Barnes and Michael Kölling.

@@ -1,3 +1,5 @@
+package auction;
+
 /**
  * A class to model an item (or set of items) in an
  * auction: a lot.

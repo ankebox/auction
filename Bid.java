@@ -1,3 +1,5 @@
+package auction;
+
 /**
  * A class that models an auction bid.
  * It contains a reference to the Person bidding and the amount bid.
